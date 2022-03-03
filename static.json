@@ -1,6 +1,6 @@
 {
   "headers": {
-    "/*":{
+    "/*": {
       "X-Author": "kobo220376",
       "Access-Control-Allow-Origin": "*"
     },
@@ -11,6 +11,10 @@
     "/login/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
-    }    
+    },
+    "/hour/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    }
   }
 }
